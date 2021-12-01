@@ -306,4 +306,8 @@ nav {
     .offcanvas {
         width: 250px;
     }
+    .cpr {
+        margin-top: 100px;
+        margin-left: 60%;
+    }
 }
