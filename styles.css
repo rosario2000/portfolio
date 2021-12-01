@@ -1,0 +1,309 @@
+body {
+    background-color: rgb(248, 248, 248);
+}
+
+h1 {
+    font-size: 3.5rem;
+    font-family: 'montserrat', sans-serif;
+    font-weight: 100;
+}
+
+
+/*------------------------navigation-------------------------------*/
+
+nav {
+    height: 200px;
+    position: fixed;
+    margin: 0 auto;
+    z-index: 1;
+}
+
+.navbar-brand {
+    margin-left: 40px;
+    font-size: 2rem;
+    border: 3px solid #7510F7;
+    padding: 10px;
+}
+
+.navbar-toggler {
+    margin-right: 20px;
+}
+
+.offcanvas-header {
+    margin: 65px 0 0 25px;
+    width: 80px;
+    color: white;
+    font-size: 2rem;
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.offcanvas a {
+    color: white;
+    text-decoration: none;
+}
+
+.offcanvas li a:hover {
+    border-bottom: 1px solid white;
+    border-radius: 3px;
+}
+
+.dropdown-item {
+    color: black;
+}
+
+.offcanvas-body {
+    margin-left: 20px;
+}
+
+.nav-item {
+    width: fit-content;
+    margin-top: 10px;
+}
+
+
+/*-----------------------------Introduction-------------------------------*/
+
+.intro {
+    text-align: center;
+    color: rgb(43, 43, 43);
+    margin: 250px auto 50px;
+}
+
+.intro img {
+    margin-top: 30px;
+}
+
+
+/*-------------------------------About-------------------------------------------*/
+
+.row {
+    margin: 40px 0px;
+}
+
+.about {
+    font-family: 'Inconsolata';
+    padding: 30px 70px;
+    border: 3px solid #7510F7;
+    color: black;
+}
+
+.about h1 {
+    font-family: 'Inconsolata';
+    font-weight: 500;
+}
+
+.about p {
+    font-size: larger;
+}
+
+.comp-img {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+
+/*-----------------------------Section-------------------------------------------------*/
+
+.section {
+    width: 80%;
+    margin-bottom: 60px;
+    color: black;
+}
+
+.section .row {
+    margin-top: 0;
+}
+
+.section img {
+    margin: 15px auto;
+}
+
+.section p {
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+.section h2 {
+    font-weight: bold;
+    font-family: 'Genos', sans-serif;
+    margin: 15px auto;
+}
+
+.section h4 {
+    margin: 15px auto;
+    color: #7510F7;
+}
+
+.section .col-md-4 {
+    text-align: center;
+    padding: 10px 40px;
+    background-color: white;
+    border: 4px solid rgb(248, 247, 247);
+}
+
+
+/*------------------------------conv------------------------------------------*/
+
+.conv {
+    margin: 130px auto;
+    text-align: center;
+}
+
+.conv h2 {
+    font-family: 'Genos', sans-serif;
+    padding: 10px 0px;
+    font-size: 2.5rem;
+}
+
+.conv p {
+    font-family: 'Monsterrat', sans-serif;
+    padding: 0 20px;
+    font-size: 17px;
+    color: darkgray;
+}
+
+.btn-outline-secondary {
+    color: #7510F7;
+    border-color: #7510F7;
+    border-radius: 30px;
+}
+
+.btn-outline-secondary:hover {
+    color: white;
+    background-color: #7510F7;
+}
+
+
+/*-------------------------------Footer--------------------------------------*/
+
+.footer {
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 450px;
+    background-image: url('Img/footer.jpg');
+    background-position: center;
+    background-attachment: scroll;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-logo {
+    font-size: 2rem;
+    padding: 15px;
+    margin: 30px auto 0px;
+    width: fit-content;
+    border: 3px solid white;
+}
+
+.footer-logo a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer p {
+    font-size: 20px;
+    margin-top: 15px;
+    font-family: 'Monsterrat', sans-serif;
+}
+
+.icons {
+    font-size: larger;
+    width: fit-content;
+    margin: 90px auto 0;
+}
+
+.icons a {
+    color: white;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 100%;
+    margin: 0 20px;
+}
+
+.icons a:hover {
+    color: rgb(34, 1, 56);
+    background-color: white;
+}
+
+.cpr {
+    font-size: 3vw;
+    color: rgb(108, 88, 128);
+    text-align: left;
+    margin: 120px auto 0 84%;
+}
+
+
+/*------------------------------------about me-------------------------------------*/
+
+.owner {
+    text-align: center;
+    margin: 250px auto 50px;
+    color: black;
+    font-family: 'Inconsolata';
+}
+
+.owner-text {
+    text-align: left;
+    margin: 0 200px;
+}
+
+.owner h1 {
+    width: fit-content;
+    border-bottom: 3px solid #7510F7;
+    border-radius: 2px;
+}
+
+.owner p {
+    margin-top: 40px;
+    font-size: large;
+}
+
+.owner img {
+    padding: 15px;
+    margin: 40px auto;
+    height: 400px;
+    width: 350px;
+    border: 3px solid #7510F7;
+}
+
+
+/*-----------------------------------media queries----------------------------------------*/
+
+@media (max-width:900px) {
+    .offcanvas {
+        width: 350px;
+    }
+    h1 {
+        font-size: 2.5rem;
+    }
+    nav {
+        height: 150px;
+    }
+    .navbar-brand {
+        margin-left: 30px;
+    }
+    .comp-img {
+        margin: 0px 10px;
+    }
+    .icons a {
+        margin: 0 5px;
+    }
+    .cpr {
+        margin-top: 115px;
+        margin-left: 70%;
+    }
+    .owner {
+        margin: 180px auto 35px;
+    }
+    .owner-text {
+        margin: 0 40px;
+    }
+}
+
+@media (max-width:500px) {
+    .offcanvas {
+        width: 250px;
+    }
+}
